@@ -1,0 +1,80 @@
+body
+{
+    background-image: url(Asset/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pendidikan
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.hobi
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.movies
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container
+{
+    background-color: lavender;
+    padding: 20px;
+    width: 90%;
+}
+
+.contacts
+{
+    background-color: lavenderblush;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.form-group
+{
+    display: grid;
+    gap: 5px;
+}
+
+.form-group label
+{
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button
+{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #c15de6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #ad28ff;
+}
+
+.error
+{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
